@@ -1,0 +1,59 @@
+version 2
+run General-0-20190424-14:46:09-28128
+attr configname General
+attr datetime 20190424-14:46:09
+attr experiment General
+attr inifile omnetpp2.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network src.Net2
+attr processid 28128
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.n_nodes 20
+
+scalar Net2.node[0] "Number Of received messages" 0
+scalar Net2.node[0] "Number Of sent messages" 3
+scalar Net2.node[1] "Number Of received messages" 0
+scalar Net2.node[1] "Number Of sent messages" 3
+scalar Net2.node[2] "Number Of received messages" 0
+scalar Net2.node[2] "Number Of sent messages" 3
+scalar Net2.node[3] "Number Of received messages" 0
+scalar Net2.node[3] "Number Of sent messages" 3
+scalar Net2.node[4] "Number Of received messages" 0
+scalar Net2.node[4] "Number Of sent messages" 3
+scalar Net2.node[5] "Number Of received messages" 0
+scalar Net2.node[5] "Number Of sent messages" 3
+scalar Net2.node[6] "Number Of received messages" 0
+scalar Net2.node[6] "Number Of sent messages" 3
+scalar Net2.node[7] "Number Of received messages" 0
+scalar Net2.node[7] "Number Of sent messages" 3
+scalar Net2.node[8] "Number Of received messages" 0
+scalar Net2.node[8] "Number Of sent messages" 3
+scalar Net2.node[9] "Number Of received messages" 0
+scalar Net2.node[9] "Number Of sent messages" 3
+scalar Net2.node[10] "Number Of received messages" 0
+scalar Net2.node[10] "Number Of sent messages" 3
+scalar Net2.node[11] "Number Of received messages" 0
+scalar Net2.node[11] "Number Of sent messages" 3
+scalar Net2.node[12] "Number Of received messages" 0
+scalar Net2.node[12] "Number Of sent messages" 3
+scalar Net2.node[13] "Number Of received messages" 0
+scalar Net2.node[13] "Number Of sent messages" 3
+scalar Net2.node[14] "Number Of received messages" 0
+scalar Net2.node[14] "Number Of sent messages" 3
+scalar Net2.node[15] "Number Of received messages" 0
+scalar Net2.node[15] "Number Of sent messages" 3
+scalar Net2.node[16] "Number Of received messages" 0
+scalar Net2.node[16] "Number Of sent messages" 3
+scalar Net2.node[17] "Number Of received messages" 0
+scalar Net2.node[17] "Number Of sent messages" 3
+scalar Net2.node[18] "Number Of received messages" 0
+scalar Net2.node[18] "Number Of sent messages" 3
+scalar Net2.node[19] "Number Of received messages" 0
+scalar Net2.node[19] "Number Of sent messages" 3
+

@@ -1,0 +1,28 @@
+version 2
+run T_random-0-20190416-22:52:59-17524
+attr configname T_random
+attr datetime 20190416-22:52:59
+attr experiment T_random
+attr inifile omnetpp2.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network src.Net2
+attr processid 17524
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.node[*].time_interval uniform(0.1,0.5)
+param **.n_nodes 4
+
+scalar Net2.node[0] "Number Of received messages" 3
+scalar Net2.node[0] "Number Of sent messages" 1
+scalar Net2.node[1] "Number Of received messages" 3
+scalar Net2.node[1] "Number Of sent messages" 1
+scalar Net2.node[2] "Number Of received messages" 2
+scalar Net2.node[2] "Number Of sent messages" 1
+scalar Net2.node[3] "Number Of received messages" 3
+scalar Net2.node[3] "Number Of sent messages" 1
+

@@ -1,0 +1,33 @@
+version 2
+run T_interval1-0-20190416-23:40:24-10652
+attr configname T_interval1
+attr datetime 20190416-23:40:24
+attr experiment T_interval1
+attr inifile omnetpp2.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network src.Net2
+attr processid 10652
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.node[*].time_interval 0.2
+param **.n_nodes 6
+param **.queueType "\"DropTailQueue\""
+
+scalar Net2.node[0] "Number Of received messages" 0
+scalar Net2.node[0] "Number Of sent messages" 1
+scalar Net2.node[1] "Number Of received messages" 1
+scalar Net2.node[1] "Number Of sent messages" 1
+scalar Net2.node[2] "Number Of received messages" 1
+scalar Net2.node[2] "Number Of sent messages" 1
+scalar Net2.node[3] "Number Of received messages" 0
+scalar Net2.node[3] "Number Of sent messages" 1
+scalar Net2.node[4] "Number Of received messages" 0
+scalar Net2.node[4] "Number Of sent messages" 1
+scalar Net2.node[5] "Number Of received messages" 0
+scalar Net2.node[5] "Number Of sent messages" 1
+
